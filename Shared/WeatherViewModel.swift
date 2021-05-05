@@ -2,13 +2,13 @@
 //  WeatherViewModel.swift
 //  Mobile
 //
-//  Created by Guest User on 04/05/2021.
+//  Created by Guest User on 05/05/2021.
 //
 
 import Foundation
 
 class WeatherViewModel: ObservableObject {
-    @Published private(set) var model: WeatherModel = WeatherModel(cities: ["Alabama", "Kraków", "Warszawa"])
+    @Published private(set) var model: WeatherModel = WeatherModel(cities: ["London", "Cracow", "Venice", "Roma"])
     
     var records: Array<WeatherModel.WeatherRecord> {
         model.records

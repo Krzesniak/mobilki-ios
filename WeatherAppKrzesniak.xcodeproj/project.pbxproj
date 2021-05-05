@@ -42,9 +42,9 @@
 		AC2F4333264175260018C1E2 /* MobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileApp.swift; sourceTree = "<group>"; };
 		AC2F4334264175260018C1E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AC2F4335264175290018C1E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AC2F433A264175290018C1E2 /* Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2F433A264175290018C1E2 /* WeatherAppKrzesniak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherAppKrzesniak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC2F433D2641752A0018C1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC2F43422641752A0018C1E2 /* Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2F43422641752A0018C1E2 /* WeatherAppKrzesniak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherAppKrzesniak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC2F43442641752A0018C1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC2F43452641752A0018C1E2 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		AC2F434A2641752A0018C1E2 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,8 +116,8 @@
 		AC2F433B264175290018C1E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AC2F433A264175290018C1E2 /* Mobile.app */,
-				AC2F43422641752A0018C1E2 /* Mobile.app */,
+				AC2F433A264175290018C1E2 /* WeatherAppKrzesniak.app */,
+				AC2F43422641752A0018C1E2 /* WeatherAppKrzesniak.app */,
 				AC2F434A2641752A0018C1E2 /* Tests iOS.xctest */,
 				AC2F43552641752A0018C1E2 /* Tests macOS.xctest */,
 			);
@@ -162,9 +162,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AC2F4339264175290018C1E2 /* Mobile (iOS) */ = {
+		AC2F4339264175290018C1E2 /* WeatherAppKrzesniak (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC2F43642641752A0018C1E2 /* Build configuration list for PBXNativeTarget "Mobile (iOS)" */;
+			buildConfigurationList = AC2F43642641752A0018C1E2 /* Build configuration list for PBXNativeTarget "WeatherAppKrzesniak (iOS)" */;
 			buildPhases = (
 				AC2F4336264175290018C1E2 /* Sources */,
 				AC2F4337264175290018C1E2 /* Frameworks */,
@@ -174,14 +174,14 @@
 			);
 			dependencies = (
 			);
-			name = "Mobile (iOS)";
+			name = "WeatherAppKrzesniak (iOS)";
 			productName = "Mobile (iOS)";
-			productReference = AC2F433A264175290018C1E2 /* Mobile.app */;
+			productReference = AC2F433A264175290018C1E2 /* WeatherAppKrzesniak.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AC2F43412641752A0018C1E2 /* Mobile (macOS) */ = {
+		AC2F43412641752A0018C1E2 /* WeatherAppKrzesniak (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC2F43672641752A0018C1E2 /* Build configuration list for PBXNativeTarget "Mobile (macOS)" */;
+			buildConfigurationList = AC2F43672641752A0018C1E2 /* Build configuration list for PBXNativeTarget "WeatherAppKrzesniak (macOS)" */;
 			buildPhases = (
 				AC2F433E2641752A0018C1E2 /* Sources */,
 				AC2F433F2641752A0018C1E2 /* Frameworks */,
@@ -191,9 +191,9 @@
 			);
 			dependencies = (
 			);
-			name = "Mobile (macOS)";
+			name = "WeatherAppKrzesniak (macOS)";
 			productName = "Mobile (macOS)";
-			productReference = AC2F43422641752A0018C1E2 /* Mobile.app */;
+			productReference = AC2F43422641752A0018C1E2 /* WeatherAppKrzesniak.app */;
 			productType = "com.apple.product-type.application";
 		};
 		AC2F43492641752A0018C1E2 /* Tests iOS */ = {
@@ -257,7 +257,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AC2F4331264175250018C1E2 /* Build configuration list for PBXProject "Mobile" */;
+			buildConfigurationList = AC2F4331264175250018C1E2 /* Build configuration list for PBXProject "WeatherAppKrzesniak" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -270,8 +270,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AC2F4339264175290018C1E2 /* Mobile (iOS) */,
-				AC2F43412641752A0018C1E2 /* Mobile (macOS) */,
+				AC2F4339264175290018C1E2 /* WeatherAppKrzesniak (iOS) */,
+				AC2F43412641752A0018C1E2 /* WeatherAppKrzesniak (macOS) */,
 				AC2F43492641752A0018C1E2 /* Tests iOS */,
 				AC2F43542641752A0018C1E2 /* Tests macOS */,
 			);
@@ -355,12 +355,12 @@
 /* Begin PBXTargetDependency section */
 		AC2F434C2641752A0018C1E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AC2F4339264175290018C1E2 /* Mobile (iOS) */;
+			target = AC2F4339264175290018C1E2 /* WeatherAppKrzesniak (iOS) */;
 			targetProxy = AC2F434B2641752A0018C1E2 /* PBXContainerItemProxy */;
 		};
 		AC2F43572641752A0018C1E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AC2F43412641752A0018C1E2 /* Mobile (macOS) */;
+			target = AC2F43412641752A0018C1E2 /* WeatherAppKrzesniak (macOS) */;
 			targetProxy = AC2F43562641752A0018C1E2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -491,7 +491,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.macieklad.Mobile;
-				PRODUCT_NAME = Mobile;
+				PRODUCT_NAME = WeatherAppKrzesniak;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -512,7 +512,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.macieklad.Mobile;
-				PRODUCT_NAME = Mobile;
+				PRODUCT_NAME = WeatherAppKrzesniak;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -536,7 +536,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.macieklad.Mobile;
-				PRODUCT_NAME = Mobile;
+				PRODUCT_NAME = WeatherAppKrzesniak;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -558,7 +558,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.macieklad.Mobile;
-				PRODUCT_NAME = Mobile;
+				PRODUCT_NAME = WeatherAppKrzesniak;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -652,7 +652,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AC2F4331264175250018C1E2 /* Build configuration list for PBXProject "Mobile" */ = {
+		AC2F4331264175250018C1E2 /* Build configuration list for PBXProject "WeatherAppKrzesniak" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC2F43622641752A0018C1E2 /* Debug */,
@@ -661,7 +661,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC2F43642641752A0018C1E2 /* Build configuration list for PBXNativeTarget "Mobile (iOS)" */ = {
+		AC2F43642641752A0018C1E2 /* Build configuration list for PBXNativeTarget "WeatherAppKrzesniak (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC2F43652641752A0018C1E2 /* Debug */,
@@ -670,7 +670,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC2F43672641752A0018C1E2 /* Build configuration list for PBXNativeTarget "Mobile (macOS)" */ = {
+		AC2F43672641752A0018C1E2 /* Build configuration list for PBXNativeTarget "WeatherAppKrzesniak (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC2F43682641752A0018C1E2 /* Debug */,
