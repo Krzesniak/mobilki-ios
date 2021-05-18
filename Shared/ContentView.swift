@@ -4,7 +4,9 @@
 //
 //  Created by Guest User on 05/05/2021.
 //
-
+//skorzystalem z frame(height: 150), aby ustawic stala wysokosc zaokraglonego prostokata
+//ponadto uzylem geometryreader, tak aby ustawic 20% szerokosci prostokata dla ikony pogody
+// 60 % dla tekstu (temp + nazwa miasta) i 20% dla przyscisku odswiezania
 import SwiftUI
 
 struct ContentView: View {
